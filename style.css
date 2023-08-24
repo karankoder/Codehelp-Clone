@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik,sans-serif ;
+    scroll-behavior: smooth;
+}
+
+.main-body{
+    height: 100%;
+    width:100%;
+    overflow-x:hidden;
+    position: relative;
+}
+
+.header-bar{
+    height:12%;
+    width: 100%;
+    background-color: #131516;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
+    position: fixed;
+    z-index: 100;  
+}
+
+.left-header img{
+    height:auto;
+    width:200px;
+    
+}
+
+.mid-header{
+    display: flex;
+    gap: 20px;
+}
+
+.items{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:white;
+    height:40px;
+    padding:7px;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function:cubic-bezier(.4,0,.2,1);
+}
+
+.items:hover{
+    color:rgb(101, 108, 151);
+}
+
+
+
+#dash-button{
+    height:45px;
+    width:160px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(41 52 122);
+    color:white;
+    background-color: #131516;
+    font-size: 1.2rem;
+    
+}
+
+#login-button{
+    height:45px;
+    width:160px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(41 52 122);
+    color:white;
+    background-color: rgb(41 52 122);
+    font-size: 1.2rem;
+}
+.right-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.right-header i{
+    color: white;
+    font-size: 2.2rem;
+}
+.karan{
+    cursor:pointer;
+}
+#login-button:active{
+    border-color: white;
+}
+#dash-button:active{
+    border-color: white;
+}
+
+#login-button i{
+    font-size: 1.2rem;
+}
+
+.below-header{
+    height:750px;
+    width: 100%;
+    background-color: #131516;
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url(https://cdn.thecodehelp.in/mctmmnscw4snaoc9kmnn_b35808d374.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    margin-top: 75px;
+}
+
+.left-side{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    margin: 10px;
+}
+.ls-first span{
+    color:white;
+    font-size: 3.8rem;
+    font-weight: 700;
+    /* white-space: nowrap; */
+}
+
+.ls-first-letter{
+    margin:0px;
+}
+#withkaran{
+    margin: 7px;
+}
+#learn{
+    color:rgb(110 150 207);
+}
+
+.ls-second h2{
+    color:white;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.right-side{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.right-side img{
+    height: fit-content;
+    width:100%;
+}
+
+.just-for-fun{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+
+
+.ls-third{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#video-button{
+    height:60px;
+    width:180px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(41 52 122);
+    color:white;
+    background-color: #131516;
+    font-size: 1.2rem;
+    
+}
+#courses-button:active{
+    border-color: white;
+}
+#video-button:active{
+    border-color: white;
+}
+#courses-button{
+    height:60px;
+    width:180px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(41 52 122);
+    color:white;
+    background-color: rgb(41 52 122);
+    font-size: 1.2rem;
+}
+
+.ls-fourth{
+    display:flex;
+    gap:220px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.ls-fourth-images{
+    height: 48px;
+    width:48px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#number{
+    color: rgb(219 216 211);
+    font-size: 1rem;
+    font-weight: 800;
+}
+#hs{
+    color:#989082
+}
+#image2{
+    left:35px;
+}
+#image3{
+    left:70px;   
+}
+#image4{
+    left:105px;
+}
+#image5{
+    left:140px;
+}
+
+
+

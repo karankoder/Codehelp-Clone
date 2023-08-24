@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik,sans-serif ;
+    scroll-behavior: smooth;
+    
+}
+
+.card-bar{
+    width: 100%;
+    height: 1180px;
+    background-color: rgb(27 29 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+   
+    padding: 35px;
+}
+
+.text-card-bar{
+    margin-top: 20px;
+    padding: 56px;
+    text-align: center;
+    color: aliceblue;
+}
+#firstline{
+    font-size: 1.4rem;
+    color: rgb(110 150 207);
+}
+#thirdline{
+    font-size: 3rem;
+}
+#secondline{
+    font-size: 3rem;
+}
+
+.card1{
+    height: 340px;
+    width: 380px;
+    border: 5px solid #181a1b;
+    margin: 10px;
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 20px;
+    border-bottom: solid;
+    border-bottom-width: 6px;
+    border-bottom-color:rgba(1, 162, 142, 0.39);
+    border-radius: 0.375rem;
+}
+.card{
+    height: 340px;
+    width: 380px;
+    border: 5px solid #181a1b;
+    margin: 10px;
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 45px;
+    gap: 20px;
+
+}
+.first-card-bar{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+
+}
+
+.second-card-bar{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+
+}
+
+.icon-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.icon-card1{
+    background-color: rgba(1, 162, 142, 0.39);
+    color: #31B4A3;
+    font-size: 1.5rem;
+}
+.icon-card2{
+    background-color: rgba(229, 48, 62, 0.39);
+    color: #E5303E;
+    font-size: 1.5rem;
+}
+.icon-card3{
+    background-color: rgba(55, 19, 253, 0.39);
+    color: #3713FD;
+    font-size: 1.5rem;
+}
+.card3{
+    border-bottom: solid;
+    border-bottom-width: 6px;
+    border-bottom-color:rgba(55, 19, 253, 0.39);
+    border-radius: 0.375rem;
+}
+.icon-card4{
+    background-color: rgba(19, 120, 175, 0.39);
+    color: #1378AF;
+    font-size: 1.5rem;
+}
+.card4{
+    border-bottom: solid;
+    border-bottom-width: 6px;
+    border-bottom-color:rgba(19, 120, 175, 0.39);
+    border-radius: 0.375rem;
+}
+
+.icon-card5{
+    background-color: rgba(26, 158, 253, 0.39);
+    color: #1A9EFD;
+    font-size: 1.5rem;
+}
+.card5{
+    border-bottom: solid;
+    border-bottom-width: 6px;
+    border-bottom-color:rgba(26, 158, 253, 0.39);
+    border-radius: 0.375rem;
+}
+.icon-card6{
+    background-color: rgba(249, 113, 21, 0.39);
+    color: #F97115;
+    font-size: 1.5rem;
+}
+.card6{
+    border-bottom: solid;
+    border-bottom-width: 6px;
+    border-bottom-color:rgba(249, 113, 21, 0.39);
+    border-radius: 0.375rem;
+}
+.heading-card{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.2rem;  
+}
+
+.content-card{
+    color: #989082;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.card2{
+    border-bottom: solid;
+    border-bottom-width: 6px;
+    border-bottom-color:rgba(229, 48, 62, 0.39);
+    border-radius: 0.375rem;
+}
+
+.card{
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.card1{
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.card1:hover{
+    transform: scale(1.07);
+}
+.card:hover{
+    transform: scale(1.07);
+}
+
+.footer-bar{
+    width: 100%;
+    height: 370px;
+    background-color: #29347A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-footer-bar{
+    height: 75%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer-bar{
+    height: 180px;
+    width:350px ;
+    margin-left:65px;
+    margin-top: 40px;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 10px;
+    
+}
+.Heading-footer-bar{
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.menu-footer-bar{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 28px;
+}
+
+.services-footer-bar{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-right: 70px;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+}
+
+.get-footer-bar{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 340px;
+    color: white;
+    padding-top: 2px;
+    line-height: 25px;
+    padding-left: 80px;
+    border-left:0.0001rem solid white;
+   
+}
+.lower-footer-bar{
+    height: 25%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 1px solid white;
+}
+.anchortag{
+    text-decoration: none;
+}
+
+.issue-bar{
+    height: 48px;
+    width: 220px;
+    position:absolute;
+    bottom: 16px;
+    left: 1280px;
+    background-color: #2F3A83;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 1.1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+}
